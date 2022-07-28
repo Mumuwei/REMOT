@@ -23,17 +23,19 @@ It's a preview version of our source code. We will clean it up in the near futur
 
 ### Data Preparation
 Download all the data packages from [[google drive]](https://drive.google.com/drive/folders/1f6NEO1onLtf-K65bpms4_alBlNh5YIVW?usp=sharing) or [[baidu pan (extraction code:gle4]](https://pan.baidu.com/s/14oitDhULAeirGaojV_VYew), and uncompress them.
-You should create a directory named 'SoloDance' in the root (i.e., 'C2F-FWN') of this project, and then put 'train' and 'test' folders to 'SoloDance' you just created.
+You should create a directory named 'iPER' in the root (i.e., 'iPER') of this project, and then put 'train' and 'test' folders to 'iPER' you just created.
 The structure should look like this:  
--C2F-FWN  
+-iPER
 ---SoloDance  
 ------train  
 ------test  
 
     
-### Testing all the stages together (separate testing scripts for different stages will be updated in the near future)
-    bash scripts/full/test_full.sh
-
+### Testing stage 1 
+    bash scripts/full/test_stage1.sh
+### Testing stage 123
+    bash scripts/full/test_stage123.sh
+    
 ## Acknowledgement
 A large part of the code is borrowed from [NVIDIA/vid2vid](https://github.com/NVIDIA/vid2vid). Thanks for their wonderful works.
 

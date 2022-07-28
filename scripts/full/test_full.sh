@@ -1,0 +1,13 @@
+python test_all_stages.py --name full_256p \
+--dataroot /home/wujinlin5/yqw_home/data/SoloDance_upload/test --dataset_mode full --model full --nThreads 16 \
+--input_nc_T_1 12 --input_nc_S_1 3 --input_nc_T_2 9 --input_nc_S_2 3 --input_nc_P_2 10 --input_nc_T_3 13 --input_nc_S_3 15 \
+--label_nc_1 12 --label_nc_2 3 --label_nc_3 12 --output_nc_1 12 --output_nc_2 3 --output_nc_3 3 \
+--ngf 64 --grid_size 3 \
+--resize_or_crop scaleHeight --loadSize 256 --random_drop_prob 0 \
+--no_first_img --gpu_ids 0 \
+--load_pretrain_1 /home/wujinlin5/yqw_home/Motion_Transfer/C2F-FWN-new/check_points/parser_256p \
+--which_epoch_1 latest \
+--load_pretrain_2 /home/wujinlin5/yqw_home/Motion_Transfer/C2F-FWN-new/check_points/test2/clothwarp_256p \
+--which_epoch_2 latest \
+--load_pretrain_3 /home/wujinlin5/yqw_home/Motion_Transfer/C2F-FWN-new/check_points/test2/composer_256p \
+--which_epoch_3 latest 

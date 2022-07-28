@@ -25,8 +25,8 @@ It's a preview version of our source code. We will clean it up in the near futur
 Download all the data packages from [[google drive]](https://drive.google.com/drive/folders/1f6NEO1onLtf-K65bpms4_alBlNh5YIVW?usp=sharing) or [[baidu pan (extraction code:gle4]](https://pan.baidu.com/s/14oitDhULAeirGaojV_VYew), and uncompress them.
 You should create a directory named 'iPER' in the root (i.e., 'iPER') of this project, and then put 'train' and 'test' folders to 'iPER' you just created.
 The structure should look like this:  
--iPER
----SoloDance  
+-xx/xx
+---iPER  
 ------train  
 ------test  
 

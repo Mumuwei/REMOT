@@ -7,11 +7,8 @@
 - NVIDIA GPU (>12GB memory) + CUDA10 cuDNN7
 - PyTorch 1.0.0
 ### Other Dependencies
-#### DConv (modified from original [[DConv]](https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch))
-    cd models/dconv
-    bash make.sh
 #### FlowNet_v2 (directly ported from the original [[flownet2]](https://github.com/NVIDIA/flownet2-pytorch) following the steps described in [[vid2vid]](https://github.com/NVIDIA/vid2vid))
-    cd models/flownet2-pytorch
+    cd models/flownet2_pytorch
     bash install.sh
 
 ## Getting Started

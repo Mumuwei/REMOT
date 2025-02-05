@@ -1,4 +1,4 @@
-# REMOT: A Region-to-Whole Framework for Realistic Human Motion Transfer
+# REMOT: A Region-to-Whole Framework for Realistic Human Motion Transfer. ACM MM 2022.
 
 
 ## Prerequisites

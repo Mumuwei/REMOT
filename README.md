@@ -1,4 +1,4 @@
-# REMOT
+# REMOT: A Region-to-Whole Framework for Realistic Human Motion Transfer
 
 
 ## Prerequisites
